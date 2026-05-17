@@ -15,3 +15,22 @@
     --color-danger: #ef4444;
   }
 }
+
+@layer components {
+  .nav-link {
+    @apply text-sm font-medium text-(--color-secondary) transition-colors duration-200 relative;
+  }
+
+  .nav-link::after {
+    content: '';
+    @apply absolute bottom-0 left-0 w-0 h-px bg-(--color-accent) transition-all duration-200;
+  }
+
+  .nav-link:hover::after {
+    @apply w-full;
+  }
+
+  .nav-link:focus-visible {
+    @apply outline-2 outline-offset-2 outline-(--color-accent);
+  }
+}
