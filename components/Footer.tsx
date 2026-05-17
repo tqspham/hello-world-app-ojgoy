@@ -1,4 +1,4 @@
-import { Mail, Linkedin as LinkedinIcon, Twitter as TwitterIcon, Github as GithubIcon } from "lucide-react";
+import { Mail, Linkedin, Twitter, Github } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -75,21 +75,21 @@ const Footer = () => {
                   className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-(--color-background) text-(--color-secondary) hover:text-(--color-accent) hover:bg-(--color-border) transition-colors"
                   aria-label="LinkedIn"
                 >
-                  <LinkedinIcon className="w-5 h-5" />
+                  <Linkedin className="w-5 h-5" />
                 </a>
                 <a
                   href="#"
                   className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-(--color-background) text-(--color-secondary) hover:text-(--color-accent) hover:bg-(--color-border) transition-colors"
                   aria-label="Twitter"
                 >
-                  <TwitterIcon className="w-5 h-5" />
+                  <Twitter className="w-5 h-5" />
                 </a>
                 <a
                   href="#"
                   className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-(--color-background) text-(--color-secondary) hover:text-(--color-accent) hover:bg-(--color-border) transition-colors"
                   aria-label="GitHub"
                 >
-                  <GithubIcon className="w-5 h-5" />
+                  <Github className="w-5 h-5" />
                 </a>
                 <a
                   href="mailto:hello@example.com"
@@ -200,21 +200,21 @@ const Footer = () => {
                 className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-(--color-background) text-(--color-secondary) hover:text-(--color-accent) hover:bg-(--color-border) transition-colors"
                 aria-label="LinkedIn"
               >
-                <LinkedinIcon className="w-5 h-5" />
+                <Linkedin className="w-5 h-5" />
               </a>
               <a
                 href="#"
                 className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-(--color-background) text-(--color-secondary) hover:text-(--color-accent) hover:bg-(--color-border) transition-colors"
                 aria-label="Twitter"
               >
-                <TwitterIcon className="w-5 h-5" />
+                <Twitter className="w-5 h-5" />
               </a>
               <a
                 href="#"
                 className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-(--color-background) text-(--color-secondary) hover:text-(--color-accent) hover:bg-(--color-border) transition-colors"
                 aria-label="GitHub"
               >
-                <GithubIcon className="w-5 h-5" />
+                <Github className="w-5 h-5" />
               </a>
               <a
                 href="mailto:hello@example.com"
